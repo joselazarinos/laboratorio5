@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
 import React, { useState } from 'react'
 
 const App = () => {
@@ -12,16 +9,19 @@ const App = () => {
   return (
     <div>
       <h2>Phonebook</h2>
+      <p>filter sho with <input/></p>
       <form>
         <div>
-          name: <input />
+          <h2>Add a new</h2>
+          name: <input /><br></br>
+          number: <input/>
         </div>
         <div>
           <button type="submit">add</button>
         </div>
       </form>
       <h2>Numbers</h2>
-      
+      ...
     </div>
   )
 }
